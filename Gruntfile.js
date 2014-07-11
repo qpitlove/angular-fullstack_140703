@@ -385,12 +385,12 @@ module.exports = function (grunt) {
       server: [
         'coffee',
         'jade',
-        'sass',
+        'sass'
       ],
       test: [
         'coffee',
         'jade',
-        'sass',
+        'sass'
       ],
       debug: {
         tasks: [
@@ -566,7 +566,7 @@ module.exports = function (grunt) {
           ]
         }
       }
-    },
+    }
   });
 
   // Used for delaying livereload until after server has restarted
